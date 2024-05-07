@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <div className="App bg-slate-700 text-black">
-      <div className="flex p-5">
+      <div className="flex justify-between p-5">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -23,7 +23,7 @@ function App() {
           height={50}
           width={50}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-10 text-white h-10"
         >
           <path
             strokeLinecap="round"
@@ -33,6 +33,7 @@ function App() {
         </svg>
 
         <div className='text-3xl text-white font-thin'>Image Gallery</div>
+        <div></div>
       </div>
       
       <div className="text-center items-center p-5"><img src={headimg}/></div>
